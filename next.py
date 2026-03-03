@@ -1,5 +1,6 @@
-list = []
+numbers = []
 for i in range(0,10):
-    list.append(i)
+    numbers.append(i)
 
-print(list)
+print(numbers)
+# End-of-file (EOF)

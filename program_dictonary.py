@@ -11,5 +11,5 @@ print(dict1.get("name"))  # accessing the value associated with the key "name"
 print(dict1["name"])  # accessing the value associated with the key "name"
 
 print(dict1.get("country"))  # accessing the value associated with the key "country"
-#print(dict1["country"])   accessing the value associated with the key "country"
-#The above line will raise a KeyError because the key 'country' does not exist in the dictionary.
+# print(dict1["country"])   accessing the value associated with the key "country"
+# The above line will raise a KeyError because the key 'country' does not exist in the dictionary.

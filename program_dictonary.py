@@ -1,6 +1,6 @@
 """This module contains a dictionary of programs and their corresponding functions."""
 
-emptyDict = {}  # creating an empty dictionary
+#emptyDict = {}   creating an empty dictionary
 
 dict1 = {
     "name": "Alice",

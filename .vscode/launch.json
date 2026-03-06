@@ -1,0 +1,37 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Current File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Current File with Arguments",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "args": [
+        "--example_arg", "value"
+      ],
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Module",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "pytest",
+      "justMyCode": true
+    },
+    {
+      "name": "Python: Attach using Process ID",
+      "type": "debugpy",
+      "request": "attach",
+      "processId": "${command:pickProcess}"
+    }
+  ]
+}
